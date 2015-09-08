@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Perl. Синтаксис и Данные</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Helvetica+Neue:400,500,700);
+      @import url(http://fonts.googleapis.com/css?family=Ubuntu&v2);
+
+
+      .remark-slide-content {
+
+        font-family: "Helvetica Neue";
+        font-size: 32px;
+        line-height: 1.2em;
+      }
+      .remark-code {
+        font-size: 24px;
+        line-height: 1.15em;
+        font-family: Consolas, monospace;
+      }
+      .not .perl .remark-code-line-highlighted {
+        background-color: rgba(255, 0, 0, 0.5)
+      }
+      .minpad-zp {
+        margin-left: -60px;
+      }
+      .small {
+        font-size: 24px;
+        line-height: 1.15em;
+      }
+      /*
+      blockquote {
+        border-left: solid silver 5px;
+      }
+      */
+      .absmiddle {
+        position: absolute;
+      }
+      .remark-slide-content h1 { font-size: 1.2em; }
+      .remark-slide-content h2 { font-size: 1.1em; }
+      .remark-slide-content h3 { font-size: 1em; }
+      .remark-inline-code {
+        background-color: #e2e2e2;
+        padding-left: 0.05em;
+        padding-right: 0.05em;
+        margin-left: -0.05em;
+        margin-right: -0.05em;
+      }
+      .big {
+        font-size: 42px;
+      }
+      .red {
+        color: red;
+      }
+      .note {
+        display:block;
+        font-size: 18px;
+      }
+      table {
+        width:95%;
+        border-collapse: separate;
+        /*table-layout: fixed;*/
+      }
+      table td, table th {
+      }
+      .hidden {
+        background-color: silver;
+      }
+      .delete {
+        background-color: #ffaaaa;
+      }
+      .optable {
+        font-size: 18px;
+        line-height: 0.95em;
+      }
+      .optable .remark-inline-code {
+        background-color: yellow;
+      }
+      .footer {
+        position: absolute;
+        bottom: 12px;
+        left: 128px;
+        font-size: 24px;
+      }
+      /*
+      h1, h2, h3 {
+        font-weight: normal;
+      }
+      img[src="versions.png"] {
+        width: 600px;
+      }
+      .remark-slide-content {
+        background-image:    url('bg.png');
+        background-repeat:   repeat-x;
+        background-position: 0px 50px !important;
+      }
+      .remark-slide-content h1 {
+        color: white;
+      }
+      .center {
+        background-image: none; 
+      }
+      .center h1 {
+        color: black;
+      }
+      .ss {
+        text-decoration: line-through;
+      }
+      */
+    </style>
+  </head>
+  <body>
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        sourceUrl: 'perl-l2.md'
+      });
+    </script>
+  </body>
+</html>
